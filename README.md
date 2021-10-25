@@ -23,3 +23,5 @@ for (let c = 0; c < data.length; c++) {
 ```
 
 This code overhere basically dynamically adds the COVID Data recieved through the API, in a tabular format with the *tr* amd *td*. However, if you search a country from the main website, you will see that the data doesn't come in a Tabular Format. 
+
+![table-error](https://user-images.githubusercontent.com/78216399/138656109-2545f194-3619-421e-ba2a-f388aab200f7.png)
