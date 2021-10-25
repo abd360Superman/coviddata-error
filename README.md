@@ -1,6 +1,6 @@
 # COVID DATA ERROR
 
-This is the link to my (website)[https://abd360superman.github.io/coviddata-error/]
+This is the link to my website - [https://abd360superman.github.io/coviddata-error/]
 
 ## ERROR
 
