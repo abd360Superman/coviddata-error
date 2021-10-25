@@ -28,7 +28,6 @@ function loadCovidData() {
             if (inList == false) {
                 document.getElementById('error').innerHTML = '<h4>Country not found in Database</h4>'
                 document.getElementById('v_data').innerHTML = ''
-                document.getElementById('graph').innerHTML = ''
             } else {
                 document.getElementById('error').innerHTML = ''
                 renderTable(userCountry, data[ci]['data'])
