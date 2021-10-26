@@ -40,8 +40,8 @@ function renderTable(country = '', data = []) {
     console.log(data)
 
     document.getElementById('v_data').innerHTML = "<h3 id='country_name'>" + country + "</h3>"
+    document.getElementById('v_data').innerHTML += = "<table>"
     document.getElementById('v_data').innerHTML += `
-        <table>
             <tr>
                 <td>Date</td>
                 <td>Daily Vaccination</td>
