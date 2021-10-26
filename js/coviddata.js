@@ -40,7 +40,6 @@ function renderTable(country = '', data = []) {
     console.log(data)
 
     document.getElementById('v_data').innerHTML = "<h3 id='country_name'>" + country + "</h3>"
-    document.getElementById('v_data').innerHTML += = "<table>"
     document.getElementById('v_data').innerHTML += `
             <tr>
                 <td>Date</td>
@@ -63,6 +62,4 @@ function renderTable(country = '', data = []) {
             </tr>
         `
     }
-
-    document.getElementById('v_data').innerHTML += "</table>"
 }
